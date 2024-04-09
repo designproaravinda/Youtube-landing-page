@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.line-main-div .line {
+    width: 18px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.heading-div h4 {
+    margin: 0;
+    margin-left: 5px;
+}
+
+.search-div input {
+    background-color: black;
+    color: gray;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 8px;
+    width: 470px;
+}
+
+.nav-container {
+
+    display: flex;
+    padding: 8px;
+
+}
+
+.line-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.img-div {
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2px;
+}
+
+.search-div {
+    margin-left: 25%;
+}
+
+.nav-container .search-div1{
+    margin-top: 7px;
+    margin-left: 25%;
+}
+
+.search-div1 i{
+    padding: 5px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.heading-div sup {
+    font-weight: lighter;
+    color: rgb(236, 219, 219);
+    font-size: x-small;
+    letter-spacing: 2px;
+}
+
+.main-side-navbar1 .nav {
+    width: 200px;
+}
+
+.main-side-navbar1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 215px;
+    overflow-y: scroll;
+    height: 950px;
+}
+
+.main-side-navbar1 ul {
+    margin: 0;
+    padding: 0;
+    padding: 2px;
+    display: inline;
+}
+
+.main-side-navbar1 li {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 8px;
+}
+
+.home-nav ul {
+    margin-top: 10px;
+}
+
+.main-side-navbar1 p {
+    margin: 0;
+}
+
+
+.main-side-navbar1 h4 {
+    display: inline;
+}
+
+.main-side-navbar1 p {
+    font-size: small;
+    color: rgb(156, 154, 154);
+    display: inline-block;
+}
+
+.main-side-navbar1 .nav:hover {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.main-side-navbar1.one {
+    margin-top: 25px;
+}
+
+.pb {
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+
+.pc {
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+
+
+.pd {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.pe {
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+
+.pf {
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+
+.pg {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.third-nav {
+    display: flex;
+    width: 90%;
+    position: absolute;
+    left: 10%;
+    bottom: 91%;
+    flex-direction: row;
+
+}
+
+.third-nav ul {
+    display: inline;
+    padding: 4px;
+
+}
+
+.third-nav li {
+    display: inline;
+    margin-left: 33px;
+    border: .5px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #272727;
+    font-weight: bold;
+
+}
+
+.third-nav li:hover {
+    background-color: white;
+    color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 250px;
+}
+
+.para1{
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.para2{
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.para3{
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.video-frame{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    bottom: 10px;
+    flex-direction: row;
+    margin-left: 90px;
+}
+
+
+
+
+
+
+
